@@ -1,0 +1,50 @@
+body {
+    background: rgb(32, 34, 35);
+    text-align: center;
+    font-family:fantasy;
+    color:rgb(237, 214, 7)
+  }
+  
+  #hero-nav {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    object-fit:cover;
+    color:rgb(237, 214, 7)
+  }
+  
+  #hero-nav img {
+    width: 150px;
+    border: solid black 2px;
+    margin: 0.3em;
+    border-radius: 0.5em;
+    object-fit: cover;
+  }
+  
+  #hero-display img {
+    height: 35vh;
+    width: 25vw;
+    border: solid black 3px;
+    border-radius: 3em;
+    object-fit: cover;
+    color:rgb(237, 214, 7)
+  }
+  
+  #hero-display button {
+    background: rgb(83, 84, 89);
+    border: solid black 1px;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    padding: 0.75em;
+    font-weight: bold;
+    color:rgb(237, 214, 7);
+  }
+  
+  form {
+    margin: 2em;
+  }
+  
+  form label {
+    display: block;
+  }
+  
